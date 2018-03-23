@@ -1785,10 +1785,13 @@
 
 			footer {
 				margin: 3em 0 0 0;
+
+
 			}
 
 				footer > p {
 					font-size: 1.25em;
+					text-align: center;
 				}
 
 		/* Form */
@@ -1800,7 +1803,7 @@
 			form .button {
 				margin: 0 0.5em 0 0.5em;
 				background-color: #4f1e75;
-				
+
 			}
 
 		/* Button */
@@ -1822,8 +1825,9 @@
 				.button.big {
 					font-size: 1em;
 					letter-spacing: -0.020em;
-					margin: 1em;
+					margin: .5em;
 					background-color: #4f1e75;
+					left:42%;
 				}
 
 		/* Box */
