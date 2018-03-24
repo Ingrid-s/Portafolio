@@ -1827,7 +1827,10 @@
 					letter-spacing: -0.020em;
 					margin: .5em;
 					background-color: #4f1e75;
-					left:42%;
+
+				}
+				#buttonWork{
+					left: 42% !important;
 				}
 
 		/* Box */
