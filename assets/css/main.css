@@ -33,6 +33,11 @@ body {
   float: right !important;
 }
 
+.skills {
+margin: 2rem;
+
+}
+
 ol, ul {
   list-style: none;
 }
