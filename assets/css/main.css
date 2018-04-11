@@ -38,6 +38,14 @@ margin: 2rem;
 
 }
 
+#read {
+	display: inline-block;
+	margin-left: 3rem;
+  max-width: 30rem;
+  max-height: 30rem;
+
+}
+
 ol, ul {
   list-style: none;
 }
