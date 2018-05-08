@@ -795,7 +795,7 @@
 
 				.image {
 					width: 20em;
-					height: 20em;
+					min-height: 20em;
 					margin: 0;
 				}
 
@@ -879,8 +879,8 @@
 
 			#top {
 				.image {
-					width: 19.5em;
-					height: 19.5em;
+					min-width: 19.5em;
+					min-height: 321px;
 					margin: 0;
 				}
 			}
@@ -1026,7 +1026,7 @@
 		#top {
 			.image {
 				width: 70%;
-				height: auto;
+				height: 321px;
 				margin: 0 auto 1.75em auto;
 			}
 		}
