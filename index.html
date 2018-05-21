@@ -1,192 +1,163 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.css ">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  </head>
+  <body>
+       <!--Navbar web-->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper  black">
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#sobreMi">Sobre Mí</a></li>
+              <li><a href="#mySkills">Habilidades</a></li>
+              <li><a href="#portafolio">Portafolio</a></li>
+              <li class=""><a href="#contactMe">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Aobut me section-->
+      <div class="row" id="sobreMi">
+       <div class="col s12 m12">
+         <section>
+          <div class="granadient brand-logo center">
+            <p class="intro">Hola, soy</p>
+            <h1 class="initialText animated flash red-text darken-1"> Ingrid Sagrero</h1>
+            <span class="intro"> Front-end developer</span>
+            <img class="fotoIngrid animated flip"src="assets/images/myAvatar.png" alt="">
 
-<head>
-	<title>Ingrid Sagrero Portafolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-</head>
+            <!-- Modal Trigger -->
+            <a id="openModal"class="waves-effect waves-light btn modal-trigger red darken-1 btn-floating btn-light " href="#modal1"><i class="material-icons">add</i></a>
 
-<body>
+          <!-- Modal Structure -->
+            <div id="modal1" class="modal aboutMe">
+              <div class="modal-content">
+                  <h4>Sobre mí</h4>
+                  <p>Me gradué de la quinta generación de Laboratoria CDMX como Front-end developer porque me apasionan las TIC´s y la seguridad informática.
+                  También soy amante de las artes, los libros y viajar; Me gusta trabajar en equipos diversos porque siempre aprendo cosas nuevas, soy autodidacta y planeo convertirme en Full Stack Developer en un futuro próximo.</p>
+                  <i class="em em-computer emoji"></i>
+                  <i class="em em-performing_arts emoji"></i>
+                  <i class="em em-closed_book emoji"></i>
+                  <i class="em em-airplane emoji"></i>
+                  <i class="em em-woman-swimming emoji"></i>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-light btn  #e53935 red darken-1">Cerrar</a>
+              </div>
+            </div>
+          </div>
+      </section>
+     </div>
+    </div>
+    <!-- My Skills section -->
+    <div class="row" id="mySkills">
+      <div class="col s12 m6">
+        <div class="card-panel teal #bdbdbd grey lighten-1 skills">
+          <h4 class="black-text brand-logo center  brand-logo center">Habilidades técnicas</h4>
+          <img class="tech-Skills"src="assets/images/css3.png" alt="">
+          <img class="tech-Skills"src="assets/images/js.png" alt="">
+          <img class="tech-Skills"src="assets/images/git.png" alt="">
+          <img class="tech-Skills"src="assets/images/gitHub.png" alt="">
+          <img class="tech-Skills"src="assets/images/boostrap.png" alt="">
+          <img class="tech-Skills"src="assets/images/materialize.png" alt="">
+          <img class="tech-Skills"src="assets/images/npm.png" alt="">
+          <img class="tech-Skills"src="assets/images/react.png" alt="">
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card-panel teal brand-logo center black skills">
+          <h4 class="white-text">Habilidades socio-emocionales.</h4>
 
-	<!-- Nav -->
-	<nav id="nav">
-		<ul class="container">
-			<li><a href="#top">Sobre mi</a></li>
-			<li><a href="#portfolio">Portafolio</a></li>
-			<li><a href="#contact">Contacto</a></li>
+          <table class="centered">
+            <thead>
+              <tr></tr>
+            </thead>
 
-		</ul>
-	</nav>
+            <tbody>
+              <tr>
+                <td><img class="soft-Skills"src="assets/images/Comunicacion.png" alt=""></td>
+                <td><p class="white-text  soft-Text valign-wrapper">Comunicación asertiva</p></td>
+              </tr>
+              <tr>
+                <td><img class="soft-Skills"src="assets/images/autoaprendizaje.png" alt=""></td>
+                <td><p class="white-text soft-Text valign-wrapper">Autodidacta</p></td>
+              </tr>
+              <tr>
+                <td><img class="soft-Skills"src="assets/images/equipo.png" alt=""></td>
+                <td>  <p class="white-text soft-Text valign-wrapper">Trabajo en equipo</p></td>
+              </tr>
+              <tr>
+                <td><img class="soft-Skills"src="assets/images/resolucion.png" alt=""></td>
+                <td><p class="white-text soft-Text valign-wrapper">Resolución de conflictos</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio section -->
+    <div class="row proyects" id="portafolio">
+      <h4 class="center-align  red-text darken-1 my-Work">Proyectos</h4>
+      <div class="col s12 m4">
+        <h5 class="center-align">Entramados e-comerce</h5>
+        <img class="desarrollos"src="assets/images/entramados.jpg" alt="">
+        <a class="waves-effect waves-light red darken-1 btn-small" href="https://github.com/Ingrid-s/entramados-Ecommerce" target="_blank" ><i class="material-icons centre">code</i></a>
+      </div>
+      <div class="col s12 m4">
+        <h5 class="center-align">Scribere</h5>
+        <img class="desarrollos"src="assets/images/Scribere.jpg" alt="">
+        <a class="waves-effect waves-light red darken-1 btn-small" href="https://github.com/Ingrid-s/social-network-x" target="_blank" ><i class="material-icons centre">code</i></a>
+      </div>
+      <div class="col s12 m4">
+        <h5 class="center-align">Gamehack!</h5>
+        <img class="desarrollos"src="assets/images/gamehack.jpg" alt="">
+        <a class="waves-effect waves-light red darken-1 btn-small" href="https://github.com/Ingrid-s/Gamehack2.0" target="_blank" ><i class="material-icons centre">code</i></a>
+      </div>
+    </div>
+    <!-- Footer, contact section -->
+    <footer class="page-footer" id="contactMe">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h4 class="white-text">Contáctame</h4>
+                  <p class="grey-text text-lighten-4">Me encantaría saber de ti.</p>
+                  <a  id="email-btn"class="waves-effect waves-light red darken-1 btn" href="mailto:starlling@hotmail.com" target="_blank" ><i class="material-icons centre">email</i></a>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h4 class="white-text">Sígueme en</h4>
+              <a href="https://www.linkedin.com/in/ingrid-sagrero-mart%C3%ADnez-208853ab/"><img class="social-Media" src="assets/images/linkedin.png" alt=""></a>
+              <a href="https://github.com/Ingrid-s/"><img class="social-Media" src="assets/images/github-white.png" alt=""></a>
+              <a href="https://twitter.com/LeeIcaro"><img class="social-Media" src="assets/images/twitter.png" alt=""></a>
+          </div>
+      </div>
+            </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <img src="assets/images/batman.ico" alt="">
+          <span id="copy"> &copy 2018 Hecho por Ingrid Sagrero</span>
+          <img src="assets/images/batman.ico" alt="">
+        </div>
+      </div>
+    </footer>
 
-	<!-- Home -->
-	<div class="wrapper style1 first">
-		<article class="container" id="top">
-			<div class="row">
-				<div class="4u 12u(mobile)">
 
-				</div>
-				<div class="8u 12u(mobile)" id="about">
-					<header>
-						<img id="me" src="./images/ingrid.png"/>
-						<h1>	Soy Ingrid Sagrero.</h1>
-					</header>
 
-					<p>Front-end developer en formación porque me apasiona la tecnología y la seguridad TI, curiosa del devenir histórico, las artes y los libros estudié primero la licenciatura en Historia.
-						Me gusta estar en equipos diversos porque siempre aprendo cosas nuevas; con las herramientas que tengo y las que voy adquiriendo, planeo convertirme en full stack developer.
 
-				</div>
-			</div>
-		</article>
-	</div>
 
-	<!-- Work -->
 
-	<div class="wrapper style2">
-		<article id="work" class="white">
-			<header>
-				<h2>Habilidades técnicas:</h2>
-				<ul id="techskills">
-					<li><i class=" skills icon fa-html5 fa-7x"></i><i class="skills fab fa-js fa-7x"></i><i class="skills fab fa-css3-alt fa-7x"></i></li>
-					<li><i class= "skills fab fa-git fa-7x"></i><i class="skills fab fa-github fa-7x"></i></li>
-				</ul>
-				<br>
-				<h2>Habilidades socio-emocionales:</h2>
-				<ul id="techskills">
-					<li><h2>Comunicación asertiva</h2></li>
-					<li><h2>Trabajo en equipo</h2></li>
-					<li><h2>Determinación</h2></li>
 
-				</ul>
-			</header>
-			<div class="container">
-				<div class="row">
-					<div class="4u 12u(mobile)"></div>
-				</div>
-			</div>
-			<footer>
-				<a  href="#portfolio" class="button big scrolly">Mira mi trabajo</a>
-			</footer>
-		</article>
-	</div>
 
-	<div class="wrapper style2">
-		<article id="work" class="white">
-			<header>
-				<h2>Cosas que disfruto.</h2>
-				<img id="read" src="./images/read.jpg"/>
-				<p>Escribir código, leer, mirar la luna, enfrentarme a retos, aportar dónde quiera que puedo.</p>
-			</header>
-			<div class="container">
-				<div class="row">
-					<div class="4u 12u(mobile)"></div>
-				</div>
-			</div>
-			<footer>
-				<a  href="#portfolio" class="button big scrolly">Mira mi trabajo</a>
-			</footer>
-		</article>
-	</div>
-
-	<!-- Portfolio -->
-	<div class="wrapper style3">
-		<article id="portfolio" class="white">
-				<header>
-					<h2>Proyectos en los que he colaborado.</h2>
-					<p>Estos son los proyectos que inicié durante el Bootcamp Laboratoria y que sigo mejorando, son resultado de trabajo en equipo y organización muy puntual..</p>
-				</header>
-
-			</div>
-			<div class="row">
-				<div class="4u 12u(mobile)">
-					<article class="box style2">
-						<a href="https://cruzmayra.github.io/scribere-social-network/" class="image featured"><img src="images/scribere.png" alt="" /></a>
-						<h3><a id="description" href="#">Scribere</a></h3>
-						<br/>
-						<p id="description">Proyecto que consistió en el desarrollo del concepto e implementación de una red social dirigida a los entusiastas de la escritura; con capacidades para escribir y publicar pequeños relatos que se pueden compartir entre los miembros en tu red.</p>
-					</article>
-				</div>
-				<div class="4u 12u(mobile)">
-					<article class="box style2">
-						<a href="https://laawe.github.io/entramados-Ecommerce/" class="image featured"><img src="images/home_entramados.png" alt="" /></a>
-						<h3><a id="description" href="#">Entramados e-comerce</a></h3>
-						<br/>
-						<p id="description">Proyecto que consiste en el desarrollo de una SPA tipo e-comerce, con consumo de API´s ( la de mercado libre para un catálogo de productos y la de pay pal como método de pago). Además del propio catálogo de productos de la marca "Entramados" sin que en la interfaz haya distinción entre ambos.</p>
-					</article>
-				</div>
-				<div class="4u 12u(mobile)">
-					<article class="box style2">
-						<a href="https://ingrid-s.github.io/Gamehack2.0/" class="image featured"><img src="images/gamehack.png" alt="" /></a>
-						<h3><a id="description" href="#">Gamehack!</a></h3>
-						<p id="description">Diseño para móviles tipo red social dirigida al público <strong> gamer</strong> integramos API´s como google search(busquedas) y twitch (logueo).</p>
-					</article>
-				</div>
-			</div>
-			</div>
-			<footer>
-				<p>¿Quieres conocer más?</p>
-				<!--a id="buttonWork" href="#contact" class="button big scrolly">Contacto</a-->
-			</footer>
-		</article>
-	</div>
-
-	<!-- Contact -->
-	<div class="wrapper style4">
-		<article id="contact" class="container 75%">
-			<header>
-			<h2>Déjame saber de ti.</h2>
-			</header>
-			<div>
-							<div>
-								<div class="row">
-									<div class="12u 12u(mobile)">
-										<a href="mailto:starlling@hotmail.com">Escríbeme un email</a> <br/>
-										<br/>
-										<p> O  bien</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="12u">
-									<h3>Sígueme en:</h3>
-									<ul class="social">
-										<li><a href="https://twitter.com/LeeIcaro" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.linkedin.com/in/ingrid-sagrero-mart%C3%ADnez-208853ab/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/Ingrid-s" class="icon fa-github"><span class="label">Github</span></a></li>
-									</ul>
-									<hr />
-								</div>
-							</div>
-				</div>
-			<footer>
-				<ul id="copyright">
-					<li>&copy; Untitled. All rights reserved.</li>
-					<li>Design:HTML5 UP</li>
-				</ul>
-			</footer>
-		</article>
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
-
-</body>
-
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script type ="text/javascript" src ="js/app.js"></script>
+  </body>
 </html>
