@@ -1,0 +1,132 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #000;
+}
+
+section div {
+  width: 100%;
+  height: 85vh;
+}
+
+ .granadient {
+  display: block;
+  background-image: url("../assets/images/granadient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .initialText {
+   margin: 0;
+   padding: 2.5vh;
+   display: inline-block;
+   font-family: Pacifico;
+   font-size: 3.5em;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-delay: 1s;
+   -webkit-animation-iteration-count: 2;
+}
+
+ .intro {
+   margin: 0;
+   padding: 0;
+   display: block;
+   color: #fff;
+   font-size: 3em;
+ }
+.fotoIngrid {
+  margin-top:5vh;
+  border-radius: 50%;
+
+}
+.me{
+  width: inherit !important ;
+  height: inherit !important ;
+}
+.modal-content{
+  width: 80vh !important ;
+  height: 50vh !important ;
+}
+
+.aboutMe {
+   width: 85vh !important ;
+   height: 35vh !important ;
+}
+
+.emoji{
+  padding-left: 2em !important ;
+  width: 8vh !important ;
+  height: 8vh !important ;
+}
+.modal-footer {
+  width: 4vh !important ;
+  height: 4vh !important ;
+}
+
+.skills {
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+}
+.tech-Skills {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  width: 14vh;
+  height: 13vh;
+}
+.soft-Skills {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 48%;
+}
+.soft-Text {
+  font-size: 1rem;
+}
+
+.proyects {
+  width: 100%;
+  height: 85vh;
+  padding-top:3rem;
+  padding-left: 1rem;
+  background-color: #ffff;
+}
+
+.desarrollos {
+  width: 63vh;
+  height: 45vh;
+}
+
+.my-Work {
+  font-family: Pacifico;
+  font-size: 3.5em;
+}
+
+#portafolio a {
+  margin-top: 5%;
+  margin-left: 45%;
+}
+#contactMe {
+  width: 100%;
+  height: 55vh;
+  padding-top:3rem;
+  padding-left: 1rem;
+  background-color: #000;
+}
+.social-Media{
+  width: 7vh;
+  height: 7vh;
+  margin-left: 3%;
+  margin-top: 9%;
+}
+
+#email-btn {
+  left: 15%;
+}
+
+#copy {
+  left: 80%;
+  margin-top: 8%;
+  font-size: .8em;
+}
