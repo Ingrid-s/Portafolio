@@ -37,7 +37,17 @@ section div {
 .fotoIngrid {
   margin-top:5vh;
   border-radius: 50%;
+  display: inline-block;
 
+}
+#openModal {
+  display: block;
+  border-radius: 10%;
+  font-family: Pacifico;
+  font-size: 2rem;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: .3s;
+  -webkit-animation-iteration-count: infinite;
 }
 .me{
   width: inherit !important ;
@@ -64,7 +74,7 @@ section div {
 }
 
 .skills {
-  height: 80vh;
+  height: auto;
   margin: 0;
   padding: 0;
 }
@@ -74,7 +84,7 @@ section div {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   width: 14vh;
-  height: 13vh;
+  height: auto;
 }
 .soft-Skills {
   width: 10vh;
@@ -94,8 +104,8 @@ section div {
 }
 
 .desarrollos {
-  width: 63vh;
-  height: 45vh;
+  width: 100%;
+  height: auto;
 }
 
 .my-Work {
@@ -109,20 +119,19 @@ section div {
 }
 #contactMe {
   width: 100%;
-  height: 55vh;
-  padding-top:3rem;
+  height: auto;
   padding-left: 1rem;
   background-color: #000;
 }
-.social-Media{
-  width: 7vh;
-  height: 7vh;
-  margin-left: 3%;
-  margin-top: 9%;
+
+.footer-contact-Button{
+margin-right: 1%;
 }
 
-#email-btn {
-  left: 15%;
+.social-Media{
+  width: 11%;
+  height: auto;
+  margin-left: .5%;
 }
 
 #copy {
