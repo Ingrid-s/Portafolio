@@ -2,14 +2,16 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #000;
+
 }
 
 section div {
   width: 100%;
-  height: 85vh;
+  height: auto
 }
 
  .granadient {
+   padding-bottom: 2%;
   display: block;
   background-image: url("../assets/images/granadient.png");
   background-repeat: no-repeat;
@@ -35,8 +37,8 @@ section div {
    font-size: 3em;
  }
 .fotoIngrid {
+  width: 15%;
   margin-top:5vh;
-  border-radius: 50%;
   display: inline-block;
 
 }
@@ -44,23 +46,24 @@ section div {
   display: block;
   border-radius: 10%;
   font-family: Pacifico;
-  font-size: 2rem;
+  font-size: 2.5rem;
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: .3s;
   -webkit-animation-iteration-count: infinite;
 }
 .me{
-  width: inherit !important ;
-  height: inherit !important ;
+  width: 30%; !important ;
+  height: auto !important ;
 }
 .modal-content{
   width: 80vh !important ;
-  height: 50vh !important ;
+  height: auto !important ;
 }
 
 .aboutMe {
    width: 85vh !important ;
-   height: 35vh !important ;
+   height: auto;
+
 }
 
 .emoji{
@@ -70,7 +73,7 @@ section div {
 }
 .modal-footer {
   width: 4vh !important ;
-  height: 4vh !important ;
+  height: auto;
 }
 
 .skills {
@@ -97,8 +100,9 @@ section div {
 
 .proyects {
   width: 100%;
-  height: 85vh;
-  padding-top:3rem;
+  height: auto;
+  padding-top:1.5%;
+  padding-bottom: 2%;
   padding-left: 1rem;
   background-color: #ffff;
 }
@@ -115,7 +119,7 @@ section div {
 
 #portafolio a {
   margin-top: 5%;
-  margin-left: 45%;
+  margin-left: 5%;
 }
 #contactMe {
   width: 100%;
@@ -133,9 +137,11 @@ margin-right: 1%;
   height: auto;
   margin-left: .5%;
 }
+#email-btn2{
+  left: 50%;
+}
 
 #copy {
-  left: 80%;
   margin-top: 8%;
   font-size: .8em;
 }
