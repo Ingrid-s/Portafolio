@@ -2,7 +2,7 @@
 
 ### Vista previa
 
-![screenshotportafolio](https://user-images.githubusercontent.com/32860844/38592734-548192c2-3d03-11e8-8b07-f327fd0beb2e.png)
+![portada](https://user-images.githubusercontent.com/32860844/40506150-31b25990-5f5c-11e8-98e0-878271fcba1e.png)
 
 ### V1.1.0
 
