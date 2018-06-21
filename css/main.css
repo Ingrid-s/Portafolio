@@ -52,27 +52,30 @@ section div {
   -webkit-animation-iteration-count: infinite;
 }
 .me{
-  width: 30%; !important ;
-  height: auto !important ;
+  width: auto;
+  height: auto;
 }
 .modal-content{
-  width: 80vh !important ;
-  height: auto !important ;
+  max-width: 80vh;
+  height: auto;
 }
 
 .aboutMe {
-   width: 85vh !important ;
+   max-width: 85vh;
    height: auto;
 
 }
 
 .emoji{
-  padding-left: 2em !important ;
-  width: 8vh !important ;
-  height: 8vh !important ;
+  padding-left: 2em;
+  max-width: 8vh;
+  min-width: 6vh;
+  min-height: 8vh;
+  min-height: 6vh;
+ 
 }
 .modal-footer {
-  width: 4vh !important ;
+  width: 4vh !important;
   height: auto;
 }
 
@@ -81,16 +84,18 @@ section div {
   margin: 0;
   padding: 0;
 }
+.technicalskilss{
+width: auto;
+}
 .tech-Skills {
   display: inline-block;
   margin-top: 1.5rem;
   margin-left: 2.5rem;
-  margin-right: 2.5rem;
-  width: 14vh;
+  max-width: 14vh;
   height: auto;
 }
 .soft-Skills {
-  width: 10vh;
+  max-width: 12vh;
   height: 10vh;
   border-radius: 48%;
 }
