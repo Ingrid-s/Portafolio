@@ -16,49 +16,55 @@
   </head>
   <body>
        <!--Navbar web-->
-      <div class="navbar-fixed">
+       <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper  black">
             <ul class="right hide-on-med-and-down">
-              <li><a href="#mySkills">Habilidades</a></li>
-              <li><a href="#portafolio">Portafolio</a></li>
-              <li class=""><a href="#contactMe">Contacto</a></li>
+              <li><a href="#mySkills" class="red-text" >Habilidades</a></li>
+              <li><a href="#portafolio" class="red-text">Portafolio</a></li>
+              <li class=""><a href="#contactMe" class="red-text">Contacto</a></li>
             </ul>
           </div>
         </nav>
       </div>
       <!--Aobut me section-->
-      <div class="row" id="sobreMi">
-       <div class="col s12 m12 l12">
-         <section>
-          <div class="granadient brand-logo center">
-            <p class="intro">Hola, soy</p>
-            <h1 class="initialText animated flash red-text darken-1"> Ingrid Sagrero</h1>
-            <span class="intro"> Front-end developer</span>
-            <img class="fotoIngrid animated flip"src="assets/images/ingrid.png" alt="">
-
-            <!-- Modal Trigger -->
-            <a id="openModal"class="waves-effect waves-light modal-trigger N/A transparent white-text animated zoomIn" href="#modal1">¡Ver más!</a>
-
-          <!-- Modal Structure -->
-            <div id="modal1" class="modal aboutMe">
-              <div class="modal-content">
-                  <h4>Sobre mí</h4>
-                  <p>Me gradué de la quinta generación de Laboratoria CDMX como Front-end developer porque me apasionan las TIC´s y la seguridad informática.
-                  También soy amante de las artes, los libros y viajar; Me gusta trabajar en equipos diversos porque siempre aprendo cosas nuevas, soy autodidacta y planeo convertirme en Full Stack Developer en un futuro próximo.</p>
-                  <i class="em em-computer emoji"></i>
-                  <i class="em em-performing_arts emoji"></i>
-                  <i class="em em-closed_book emoji"></i>
-                  <i class="em em-airplane emoji"></i>
-                  <i class="em em-woman-swimming emoji"></i>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-light btn  #e53935 red darken-1">Cerrar</a>
-              </div>
+      <div class="row about" id="sobreMi">
+          
+       <div class="col s12 m6 l4">
+          <div class=" brand-logo center">
+            <div class="">
+                <p class="intro">Hola, soy</p>
+                <h1 class="initialText animated flash red-text darken-1"> Ingrid Sagrero</h1>
+                <span class="intro"> Front-end developer</span> 
             </div>
-          </div>
-      </section>
-     </div>
+          </div>  
+           <!-- Modal Trigger -->
+           <div class="center">
+              <a id="openModal"class="waves-effect waves-light modal-trigger btn  #e53935 red darken-1" href="#modal1">¡Ver más!</a>
+           </div>
+  
+           <!-- Modal Structure -->
+             <div id="modal1" class="modal aboutMe">
+               <div class="modal-content center">
+                   <h4>Sobre mí</h4>
+                   <p>Me gradué de la quinta generación de Laboratoria CDMX como Front-end developer porque me apasionan las TIC´s y la seguridad informática.
+                   También soy amante de las artes, los libros y viajar; Me gusta trabajar en equipos diversos porque siempre aprendo cosas nuevas, soy autodidacta y planeo convertirme en Full Stack Developer en un futuro próximo.</p>
+                   
+                   <div class="center">
+                      <i class="em em-computer emoji"></i>
+                      <i class="em em-performing_arts emoji"></i>
+                      <i class="em em-closed_book emoji"></i>
+                      <i class="em em-airplane emoji"></i>
+                      <i class="em em-woman-swimming emoji"></i>
+                   </div>
+               </div>
+               <div class="modal-footer">
+                 <a href="#!" class=" modal-action modal-close waves-effect waves-light btn  #e53935 red darken-1">Cerrar</a>
+               </div>
+             </div>
+        </div>  
+       
+        <div class="col s12 m6 l8 granadient"></div>
     </div>
     <!-- My Skills section -->
     <div class="row" id="mySkills">
@@ -66,15 +72,15 @@
         <div class="card-panel teal #bdbdbd white skills technicalskilss">
           <h4 class="red-text brand-logo center  brand-logo center">Habilidades técnicas</h4>
           <div class="img-container">
-              <img class="tech-Skills circle responsive-img"src="assets/images/css3.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/js.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/git.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/gitHub.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/boostrap.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/materialize.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/npm.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/react.png" alt="">
-              <img class="tech-Skills circle responsive-img"src="assets/images/jquery.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/css3.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/js.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/git.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/gitHub.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/boostrap.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/materialize.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/npm.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/react.png" alt="">
+              <img class="tech-Skills responsive-img"src="assets/images/jquery.png" alt="">
           </div>
           
         </div>
@@ -82,31 +88,24 @@
       <div class="col s12 m12 l6">
         <div class="card-panel teal brand-logo center black skills">
           <h4 class="red-text">Habilidades socio-emocionales.</h4>
-
-          <table class="centered">
-            <thead>
-              <tr></tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td><img class="soft-Skills"src="assets/images/Comunicacion.png" alt=""></td>
-                <td><p class="white-text  soft-Text valign-wrapper">Comunicación asertiva</p></td>
-              </tr>
-              <tr>
-                <td><img class="soft-Skills"src="assets/images/autoaprendizaje.png" alt=""></td>
-                <td><p class="white-text soft-Text valign-wrapper">Autodidacta</p></td>
-              </tr>
-              <tr>
-                <td><img class="soft-Skills"src="assets/images/equipo.png" alt=""></td>
-                <td>  <p class="white-text soft-Text valign-wrapper">Trabajo en equipo</p></td>
-              </tr>
-              <tr>
-                <td><img class="soft-Skills"src="assets/images/resolucion.png" alt=""></td>
-                <td><p class="white-text soft-Text valign-wrapper">Resolución de conflictos</p></td>
-              </tr>
-            </tbody>
-          </table>
+            <div class="skills-container center">
+              <span><img class="soft-Skills responsive-img"src="assets/images/Comunicacion.png" alt=""></span>
+              <span><p class="white-text  soft-Text valign-wrapper">Comunicación asertiva</p></span>
+            </div>  
+            <div class="skills-container center">
+              <span><img class="soft-Skills responsive-img"src="assets/images/autoaprendizaje.png" alt=""></span>
+              <span><p class="white-text soft-Text valign-wrapper">Autodidacta</p></span>
+            </div>  
+            <div class="skills-container center">
+              <span><img class="soft-Skills responsive-img"src="assets/images/equipo.png" alt=""></span>
+              <span><p class="white-text soft-Text valign-wrapper">Trabajo en equipo</p></span>
+            </div>
+            <div class="skills-container center">
+                <span><img class="soft-Skills responsive-img"src="assets/images/resolucion.png" alt=""></span>
+                <span><p class="white-text soft-Text valign-wrapper">Resolución de conflictos</p></span>
+              </div>
+          </div>
+          
         </div>
       </div>
     </div>
