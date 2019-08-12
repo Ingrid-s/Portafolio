@@ -91,8 +91,13 @@ width: auto;
   display: inline-block;
   margin-top: 1.5rem;
   margin-left: 2.5rem;
-  max-width: 14vh;
+  width: 20%;
   height: auto;
+}
+.img-container{
+display: flex;
+flex-wrap: wrap;
+
 }
 .soft-Skills {
   max-width: 12vh;
@@ -141,9 +146,6 @@ margin-right: 1%;
   width: 11%;
   height: auto;
   margin-left: .5%;
-}
-#email-btn2{
-  left: 50%;
 }
 
 #copy {
