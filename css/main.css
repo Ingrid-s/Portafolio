@@ -1,27 +1,27 @@
-
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #000;
+}
+body > div.navbar-fixed > nav > div > ul > li > a{
+  font-weight: 300;
+  font-size: 1.2em !important;
+  }
 
-}
-section div {
-  width: 100%;
-  height: auto
-}
 .row {
   margin-bottom: 0 !important;
 }
 .black {
   background-color: #171717 !important;
-
 }
+
+
 .granadient {
   padding-bottom: 2%;
  display: block;
  background-image: url("../assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg");
  background-repeat: no-repeat;
  background-size: cover;
- height: 42vh;
+ height: 43vh;
 }
 .background-text{
   width: 80%;
@@ -39,7 +39,6 @@ section div {
    -webkit-animation-delay: 1s;
    -webkit-animation-iteration-count: 2;
 }
-
  .intro {
    margin: 0;
    padding: 0;
@@ -47,11 +46,7 @@ section div {
    color: #fff;
    font-size: 3em;
  }
- body > div.navbar-fixed > nav > div > ul > li > a{
-font-weight: 300;
-font-size: 1.2em !important;
-}
-
+ 
 #openModal {
   margin-bottom: 20px;
   margin-top: 15px; 
@@ -66,10 +61,10 @@ font-size: 1.2em !important;
   height: auto;
 }
 
-.aboutMe {
-   max-width: 85vh;
-   height: auto;
-
+.about {
+   word-wrap: break-word;
+   height: 45vh;
+   box-sizing: border-box;
 }
 
 .emoji{
@@ -90,9 +85,13 @@ font-size: 1.2em !important;
   margin: 0;
   padding: 0;
 }
+#mySkills > div:nth-child(1) > div{
+  padding-bottom: 20%;
+}
 .technicalskilss{
 width: auto;
 }
+
 .tech-Skills {
   display: inline-block;
   width: 18%;
@@ -103,6 +102,53 @@ width: auto;
 display: flex;
 flex-wrap: wrap;
 
+}
+
+.icons-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+.icons-container:hover{
+  background: black;
+}
+
+.icons-container--figure{
+  width: 12%;
+  min-width: 63px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+ 
+}
+.icons-container--figure:hover{
+  background-color: black;
+  color: #fff;
+}
+.icons-container--icon{
+  width: 80%;
+  min-width: 60px;
+}
+
+.icons-container--icon-small {
+  max-width: 40px;
+}
+.icons-container--icon-caption{
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+.icons-container--icon-caption:hover{
+   color: #fff;
+}
+#gh-icon{
+  fill: #d6cdcd;
+}
+#gh-icon:hover,
+#gh-icon:focus{
+  fill:#fff;
 }
 .soft-Skills {
   width: 50px;
@@ -128,6 +174,9 @@ flex-wrap: wrap;
   padding-bottom: 2%;
   padding-left: 1rem;
   background-color: #ffff;
+}
+.proyect-card{
+  margin-top: 15px;
 }
 
 .desarrollos {
@@ -165,14 +214,51 @@ margin-right: 1%;
   margin-top: 8%;
   font-size: .8em;
 }
-@media (max-width: 500px) {
+
+@media only screen and (max-width: 601px){
+
+  body > div.navbar-fixed{
+    display: none;
+  }
+
+  body > div.navbar-fixed > nav > div{
+    display: none;
+  }
+  .granadient{
+    height: 300px;
+  }
+  .about {
+    height: 7vh;
+ }
   .proyects{
-    height: 25vh;
+    min-height: 480px;
+  }
+  
+  #mySkills > div:nth-child(1) > div{
+    padding-bottom: 0;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 }
 
-@media (max-width: 500px) {
-  .granadient {
-    height: 10vh;
+@media only screen and (max-width: 300px){
+  body{
+    min-width: 300px;
+    box-sizing: border-box;
+
+  }
+    .granadient{
+      height: 150px;
+    }
+    .about {
+      height: 5vh;
+  }
+  body > div.navbar-fixed{
+    display: none;
+  }
+  #mySkills > div:nth-child(1) > div{
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 }
+
