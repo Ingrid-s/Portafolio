@@ -2,7 +2,8 @@
 
 ### Vista previa
 
-![portada](https://user-images.githubusercontent.com/32860844/40506150-31b25990-5f5c-11e8-98e0-878271fcba1e.png)
+![portada](https://user-images.githubusercontent.com/32860844/62983494-1cd6ff00-bdf5-11e9-8a30-a348adada9cc.png)
+
 
 ### V1.1.0
 
