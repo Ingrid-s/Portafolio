@@ -14,7 +14,6 @@ body > div.navbar-fixed > nav > div > ul > li > a{
   background-color: #171717 !important;
 }
 
-
 .granadient {
   padding-bottom: 2%;
  display: block;
@@ -40,12 +39,13 @@ body > div.navbar-fixed > nav > div > ul > li > a{
    -webkit-animation-iteration-count: 2;
 }
  .intro {
-   margin: 0;
-   padding: 0;
-   display: block;
-   color: #fff;
-   font-size: 3em;
- }
+    margin: 1%;
+    padding: 0;
+    display: block;
+    color: #fff;
+    font-size: 2em;
+}
+
  
 #openModal {
   margin-bottom: 20px;
@@ -57,14 +57,13 @@ body > div.navbar-fixed > nav > div > ul > li > a{
   height: auto;
 }
 .modal-content{
-  max-width: 80vh;
   height: auto;
 }
 
 .about {
    word-wrap: break-word;
-   height: 45vh;
    box-sizing: border-box;
+  
 }
 
 .emoji{
@@ -75,8 +74,9 @@ body > div.navbar-fixed > nav > div > ul > li > a{
   min-height: 6vh;
  
 }
-.modal-footer {
-  width: 4vh !important;
+
+#modal1 > div.modal-footer.center {
+  text-align: center;
   height: auto;
 }
 
